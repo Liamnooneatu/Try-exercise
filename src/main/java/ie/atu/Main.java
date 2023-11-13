@@ -9,9 +9,13 @@ public class Main {
 
         while(x < 1){
             try {
+                //reads user input as a string
                 String input = myscan.nextLine();
 
+                // parse the input to an integer
                 int myNum = Integer.parseInt(input);
+
+                //check if number is between 0 and 9
                 if (myNum >= 0 && myNum <= 9) {
                     System.out.println("You entered " + myNum);
                     x++;
